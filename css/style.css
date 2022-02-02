@@ -152,7 +152,6 @@ section p {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 100%;
   margin-right: 1rem;
 }
 
@@ -161,8 +160,6 @@ section p {
 }
 
 .etc-art-info > img {
-  height: 50%;
-  max-height: 683px;
   margin-bottom: 1rem;
 }
 
