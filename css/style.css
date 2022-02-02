@@ -145,13 +145,15 @@ section p {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   margin-bottom: 5%;
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 .etc-art-info {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
   height: 100%;
+  max-height: 683px;
   margin-right: 1rem;
 }
 
@@ -160,8 +162,8 @@ section p {
 }
 
 .etc-art-info > img {
-  height: 30vw;
-  max-height: 374px;
+  height: 100%;
+  max-height: 683px;
   margin-bottom: 1rem;
 }
 
@@ -200,14 +202,7 @@ section p {
 
   .two {
     max-width: 991px;
-    max-height: 683;
-    margin: 0 auto;
-    margin-top: 5%;
-  }
-
-  .three {
-    max-width: 991px;
-    max-height: 683;
+    max-height: 683px;
     margin: 0 auto;
     margin-top: 5%;
   }
