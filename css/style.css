@@ -125,24 +125,6 @@ section p {
   width: 50%;
 }
 
-.three {
-  margin-left: 12.5%;
-  font-family: "Nanum Brush Script", cursive;
-  display: flex;
-}
-
-.three > img {
-  width: 50%;
-}
-
-.three > .art-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-
 .etc-art-list {
   margin-left: 12.5%;
   display: flex;
@@ -151,6 +133,7 @@ section p {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   margin-bottom: 5%;
   padding: 1rem;
+  height: 100%;
 }
 
 .etc-art-info {
@@ -166,7 +149,6 @@ section p {
 
 .etc-art-info > img {
   border: 1px solid aqua;
-  height: 90%;
   margin-bottom: 1rem;
 }
 
