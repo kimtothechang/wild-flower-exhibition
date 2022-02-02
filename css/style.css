@@ -8,6 +8,19 @@ img {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
+.title {
+  font-family: "Nanum Brush Script", cursive;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 1rem;
+}
+
+.exhibition-info {
+  font-size: 1.6rem;
+  text-align: left;
+  color: black;
+}
+
 .line-container {
   position: fixed;
   padding: 4px;
@@ -54,7 +67,7 @@ section p {
 
 .intro > img {
   width: 40%;
-  margin-right: 8px;
+  margin-right: 0;
 }
 
 .intro > .artist-info {
@@ -62,6 +75,7 @@ section p {
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  margin-left: 2rem;
 }
 
 .intro > .artist-info > h1 {
@@ -144,6 +158,8 @@ section p {
 }
 
 .etc-art-info > img {
+  border: 1px solid aqua;
+  height: 90%;
   margin-bottom: 1rem;
 }
 
