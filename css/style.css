@@ -160,8 +160,8 @@ section p {
 }
 
 .etc-art-info > img {
-  height: 100%;
-  max-height: 483px;
+  height: 30vw;
+  max-height: 381px;
   margin-bottom: 1rem;
 }
 
