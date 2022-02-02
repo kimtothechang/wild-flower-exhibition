@@ -9,6 +9,10 @@ body {
   margin: 0;
   background: url("../img/background.jpeg");
   background-size: contain;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 img {
@@ -56,12 +60,16 @@ section {
   text-align: center;
 }
 
-section p {
-  color: rgba(0, 0, 0, 0.5);
+section:nth-child(even) > img {
+  margin-right: 16px;
 }
 
-.art-info > h2 {
-  margin-bottom: 5%;
+section:nth-child(odd) > img {
+  margin-left: 8px;
+}
+
+section p {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .intro {
@@ -85,9 +93,13 @@ section p {
   margin-left: 2rem;
 }
 
-.intro > .artist-info > h1 {
+.art-info > h2 {
   font-size: 1.6rem;
   margin-bottom: 5%;
+}
+
+.art-info > p {
+  font-size: 1.6rem;
 }
 
 .one {
@@ -150,8 +162,25 @@ section p {
 .etc-art-info > img {
   height: 30vw;
   max-height: 374px;
-  border: 1px solid aqua;
   margin-bottom: 1rem;
+}
+
+/* 글씨 조절 */
+@media screen and (max-width: 767px) {
+  .exhibition-info {
+    font-size: 1.1rem;
+    text-align: left;
+    color: black;
+  }
+
+  .art-info > h2 {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .art-info > p {
+    font-size: 1rem;
+  }
 }
 
 /* 큰 화면 */
